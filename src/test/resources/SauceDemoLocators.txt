@@ -1,0 +1,59 @@
+Username
+1.By.id("user-name")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("input") Найдет конечно, но не единственный
+6.By.className("form_input") Найдет конечно, но не единственный
+7.By.cssSelector("#user-name")или("[type=text]") и тд.
+8.By.XPath("//*[@id="user-name"]") или ("//*[@placeholder="Username"]") и тд.
+
+Password
+1.By.id("password")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("input") Найдет конечно, но не единственный
+6.By.className("form_input") Найдет конечно, но не единственный
+7.By.cssSelector("#password") или ("[type=password]") и тд.
+8.By.XPath("//*[@id="password"]") или ("//*[@placeholder="Password"]") и тд.
+
+Login
+1.By.id("")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("input") Найдет конечно, но не единственный
+6.By.className("btn_action")
+7.By.cssSelector("[type=submit]")
+8.By.XPath("//*[@type=submit]")
+
+Image
+1.By.id("")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("div") Найдет конечно, но не единственный
+6.By.className("bot_column")
+7.By.cssSelector("[class=bot_column]")
+8.By.XPath("//*[@class=bot_column]")
+
+SWAGLABS
+1.By.id("")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("div") Найдет конечно, но не единственный
+6.By.className("login_logo")
+7.By.cssSelector("[class=login_logo]")
+8.By.XPath("//*[@class=login_logo]")
+
+Окно с логинами и паролем
+1.By.id("")
+2.By.name("")
+3.By.linkText("")
+4.By.patrialLinkText("")
+5.By.tagName("div") Найдет конечно, но не единственный
+6.By.className("login_credentials_wrap-inner")
+7.By.cssSelector("[class=login_credentials_wrap-inner]")
+8.By.XPath("//*[@class=login_credentials_wrap-inner]")
