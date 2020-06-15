@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #forInput {background-color:gray; color:white;}
+        #forTable {float:center; padding:5px; width:100%; margin-right:10px; border-radius:20px;}
+        #forButton {background-color:red; float:center;}
+
+    </style>
+    <title>Aliaksei Bachurin QA05</title>
+</head>
+<body>
+<table border="1" width="80%" id="forTable">
+    <tr align="center">
+    <td id="z" colspan="3">
+        <p align="center"><h1>ТАБЛИЦА</h1></p>
+    </td>
+    </tr>
+    <tr width="30">
+        <td  align="center"><img src="https://w3.org.ua/wp-content/uploads/2017/01/HTML5.jpg"></td>
+        <td align="center">
+            <p>
+            <input type="checkbox"> Это чекбокс
+            </p>
+        </td>
+        <td align="center">
+            <p>Выберите область</p>
+            <select name="obl">
+                <option disabled selected value="none">?????</option>
+                <option value="Minsk">Минская</option>
+                <option value="Vitebsk">Витебская</option>
+                <option value="Mogilev">Могилевская</option>
+                <option value="Gomel">Гомельская</option>
+                <option value="Grodno">Гродненская</option>
+                <option value="Brest">Брестская</option>
+
+
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <p id="forInput"> Выберите пол: </p>
+                <input type="radio" name="pol" value="Мужской">Муж
+                <input type="radio" name="pol" value="Женский">Жен
+        </td>
+        <td align="center">
+            <button type="button" id="forButton">Это кнопка</button>
+        </td>
+        <td align="center">
+            <a href="https://docs.google.com/document/d/1IoHLeqbefRUTRSgYGmVKEgv5HNiowDXPE278-DYIpuw/edit">Это ссылка</a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
