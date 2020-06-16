@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class lesson_7 extends Base_Test {
 
     @Test
@@ -25,7 +27,7 @@ public class lesson_7 extends Base_Test {
         login.click();
 
         //Выбрать все элементы
-        WebElement allElemetns = driver.findElement(By.className("inventory_list"));
+        List<WebElement> allElemetns = driver.findElements(By.className("inventory_list"));
 
         //Вывысти названия и цену
 
